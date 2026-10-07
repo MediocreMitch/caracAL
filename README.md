@@ -2,13 +2,13 @@
 
 A Node.js client for [adventure.land](https://adventure.land/ "Adventure Land")
 
-## Install this fork (`thmsn`)
+## Install this fork (`Mediocre`)
 
-If you want **this** fork (thmsndk / branch `thmsn`) — unofficial-server support, BWI monitoring updates, etc. — clone **this** repo and check out the branch. The stock README install below still points at upstream `numbereself/caracAL` `main`, which uses a different login API shape and will crash on community/Mongo game servers.
+If you want **this** fork (Mediocre / branch `Mediocre`) — unofficial-server support, BWI monitoring updates, etc. — clone **this** repo and check out the branch. The stock README install below still points at upstream `numbereself/caracAL` `main`, which uses a different login API shape and will crash on community/Mongo game servers.
 
 ```bash
 # Node 18+ LTS recommended (nvm, fnm, or system packages)
-git clone -b thmsn https://github.com/thmsndk/caracAL.git
+git clone -b Mediocre https://github.com/Mediocre/caracAL.git
 cd caracAL
 npm install
 node main.js
@@ -21,9 +21,9 @@ On first run, answer the prompts (server URL, email/password, characters, BWI). 
 ```bash
 git remote -v
 # if origin is numbereself/caracAL, either start over with the clone above, or:
-git remote add thmsn https://github.com/thmsndk/caracAL.git
-git fetch thmsn
-git checkout -B thmsn thmsn/thmsn
+git remote add Mediocre https://github.com/Mediocre/caracAL.git
+git fetch Mediocre
+git checkout -B Mediocre Mediocre/Mediocre
 npm install
 node main.js
 ```
@@ -32,7 +32,7 @@ node main.js
 
 ```bash
 git fetch origin
-git checkout thmsn
+git checkout Mediocre
 git pull
 npm install
 ```
@@ -91,7 +91,7 @@ The full changelog that used to be here has moved to [CHANGELOG.md](./CHANGELOG.
 
 ## Installation on Debian/Ubuntu (upstream `numbereself/caracAL`)
 
-> Prefer the **[Install this fork](#install-this-fork-thmsn)** section above if you want thmsndk/`thmsn`.
+> Prefer the **[Install this fork](#install-this-fork-Mediocre)** section above if you want Mediocre/`Mediocre`.
 
 ```bash
 #update packages
@@ -119,7 +119,7 @@ node main.js
 
 ## Installation on Windows 10 (upstream)
 
-> Prefer the **[Install this fork](#install-this-fork-thmsn)** section above if you want thmsndk/`thmsn`.
+> Prefer the **[Install this fork](#install-this-fork-Mediocre)** section above if you want Mediocre/`Mediocre`.
 
 First download Node.js (18+ LTS) and npm from
 
@@ -147,7 +147,7 @@ node main.js
 For this fork on Windows (PowerShell):
 
 ```
-git clone -b thmsn https://github.com/thmsndk/caracAL.git
+git clone -b Mediocre https://github.com/Mediocre/caracAL.git
 cd caracAL
 npm install
 node main.js
